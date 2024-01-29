@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_Amazon_002_ItemSearch</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>eb53a58a-e89f-452b-9547-4be0295642ac</testSuiteGuid>
+   <testCaseLink>
+      <guid>732dcdec-a1cf-466f-ad7e-a1c00c8d22b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Amazon/TC_Amazon_002</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6c172ee0-ac91-4473-9580-37ee35c1ad48</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Amazon/TC_Amazon_002_ItemSearch</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6c172ee0-ac91-4473-9580-37ee35c1ad48</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>items</value>
+         <variableId>af22a96c-bbe2-4a5e-8a4d-08e5a46a7896</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6c172ee0-ac91-4473-9580-37ee35c1ad48</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
+         <variableId>34e6e5fc-4ec8-4c2f-a7b7-8b5c3a86a9b5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
